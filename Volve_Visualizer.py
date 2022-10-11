@@ -12,5 +12,6 @@ WITSML_file = r"C:\Users\Nevada\Desktop\1.xml"
 with open(WITSML_file) as f:
     data = f.read()
 
-## Parse the WITSML file using the Beautiful library
-data_xml = BeautifulSoup(data, 'xml')
+## Parse the WITSML file using the BeautifulSoup library
+data_xml = BeautifulSoup(data, features="xml")
+
