@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Volve_Visualizer</Name>
     <RootNamespace>Volve_Visualizer</RootNamespace>
+    <IsWindowsApplication>True</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
